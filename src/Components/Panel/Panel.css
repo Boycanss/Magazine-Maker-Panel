@@ -1,0 +1,58 @@
+div.Panel {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    height: 470px;
+    width: 60px;
+    background-color: white;
+    box-shadow: 3px 7px 9px rgba(26, 26, 26, 0.658);
+}
+
+div.panelTitle {
+    background-color: rgb(90, 90, 90);
+}
+
+.panelTitle span {
+    color: white;
+    font-size: 13px;
+    font-weight: bolder;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+div.dragContent {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.panelContent span.material-icons {
+    font-size: 40px;
+}
+
+.panelContent p {
+    font-size: 14px;
+}
+
+input[type="range"] {
+    transform: rotate(270deg);
+}
+
+div.slider {
+    position: absolute;
+    bottom: -75px;
+    left: -35px;
+}
+
+div.zoom {
+    position: relative;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+}

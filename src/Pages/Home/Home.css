@@ -1,0 +1,39 @@
+div.homePage{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #CCC;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+}
+
+button{
+    border: none;
+}
+
+div.article{
+    position: absolute;
+    top: 100px;
+    height: 550px;
+    width: 450px;
+    background-color: white;
+    box-shadow: 3px 7px 9px rgba(26, 26, 26, 0.658);
+}
+
+div.p1{
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 75;
+}
+div.p2{
+    position: relative;
+    top: 0px;
+    width: 50px;
+    height: 60px;
+}

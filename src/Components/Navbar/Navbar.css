@@ -1,0 +1,60 @@
+div.Navbar{
+    position: absolute;
+    height: 55px;
+    width: 100vw;
+    background-color: white;
+}
+
+li.title a{
+    margin-left: 10px;
+    font-weight: bolder;
+    position: relative;
+    left: 50px;
+}
+
+li a:hover{
+    text-decoration: none;
+}
+
+a.icon1{
+    position: relative;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-right: 10ppx;
+    left: 45px;
+}
+a.icon2{
+    position: relative;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+
+li a {
+
+    display: block;
+    display: flex;
+    flex-direction: column;
+    color: rgb(90, 90, 90);
+    text-align: center;
+    padding: 1.5vh;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.leftNav li {
+    float: left;  
+}
+
+.rightNav li {
+    float: right;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
